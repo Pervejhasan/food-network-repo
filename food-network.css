@@ -8,6 +8,10 @@ body{
     padding:0;
 }
 
+section{
+    margin-bottom: 80px;
+}
+
 ul li a{
 text-decoration: none;
 text-transform: capitalize;
@@ -20,7 +24,6 @@ font-size: 20px;
 padding-right: 20px;
 
 }
-
 
 ul li a::before{
 
@@ -120,12 +123,11 @@ display: flex;
     border-radius: 10px;
 }
 
-
-
- 
 .main-section-2{
     margin-top: 100px;
     background-image: url("image/frame1.jpg");
+    background-repeat: no-repeat;
+
 }
 .about-me{
     padding-right:3%;
@@ -143,3 +145,136 @@ padding-top:8% ;
     text-transform: capitalize;
 }
 
+.main-section-3 p{
+    text-align: center;
+    color:#343a40;
+} 
+
+.main-section-3 h1{
+    text-align: center;
+}
+
+.main-div{
+display: flex;
+padding-left: 25px;
+justify-content: center;
+align-content: center;
+
+}
+ .common-div p{
+padding: 5px;
+
+ }
+.common-div{
+ background-color:rgb(224, 222, 222) ;
+    width:280px;
+    height: 480px;
+    border: 2px solid rgb(224, 222, 222) ;
+    margin-left: 60px;
+    border-radius: 10px;
+    transition: transform 0.5s,box-shadow 0.5s;
+}
+
+.common-div:hover{
+
+    transform: translateY(-5px);
+    box-shadow: 5px 5px  5px rgba(0,0,0,0.2);
+}
+
+.common-div img{
+
+    width:95%;
+border-radius: 10px;
+    margin: 5px;
+
+}
+.div-1 h3{
+
+    margin-left: 10px;
+}
+.div-2 h3{
+
+    margin-left: 10px;
+}
+
+.div-3 h3{
+
+    margin-left: 10px;
+}
+.div-1 p,.div-2 p,.div-3 p{
+
+    text-align: left;
+    
+}
+
+.social-media{
+    height: 150px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+    width: 90%;
+    margin:20px auto;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+   
+}
+
+.social-media1,.social-media2,.social-media3{
+    padding-top: 10px;
+ width: 30%;
+ 
+
+}
+
+.social-media1{
+    text-align: center;
+}
+
+
+.social-media2{
+    text-align: center;
+}
+
+.social-media3{
+    text-align: center;
+}
+
+footer{
+   
+    background-color: black;
+    padding:10px;
+   
+}
+footer p{
+    color:#8d99ae ;
+    font-weight: 600;
+   
+}
+
+footer p,h2{
+    text-align: center;
+    
+}
+
+footer ul {
+
+    text-align: center;
+   
+}
+
+footer ul li a{
+    transition: color 0.3s;
+
+}
+
+footer ul .list-1:hover{
+color:#1773EA ;
+text-decoration: underline;
+}
+footer ul .list-2:hover{
+    color:#BC018D ;
+    text-decoration: underline;
+ }
+footer ul .list-3:hover{
+color:#F60000 ;
+text-decoration: underline;
+}
